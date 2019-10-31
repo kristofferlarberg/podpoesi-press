@@ -1,0 +1,255 @@
+:root {
+  font-size: 62.5%;
+}
+
+@font-face {
+    font-family: 'hk_groteskregular';
+    src: url('fonts/Graebenbach-Regular.eot');
+    src: url('fonts/Graebenbach-Regular.woff') format('ttf'),
+         url('fonts/Graebenbach-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 {
+  font-family: 'Graebenbach', serif;
+  color: white;
+  font-size: 6rem;
+  line-height: 120%;
+  font-weight: 400;
+  text-align: center;
+  margin: 2.3rem 0 4.6rem 0;
+}
+
+h2 {
+  font-family: 'Graebenbach', serif;
+  color: white;
+  font-size: 2.3rem;
+  line-height: 100%;
+  font-weight: 400;
+  text-align: left;
+  margin: 0 0 0 0;  
+}
+
+p {
+  font-family: 'Graebenbach', serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 130%;
+  color: white;
+  text-align: left;
+  max-width: 70rem;
+}
+
+.italic {
+  font-style: italic;
+}
+
+a, :visited {
+  font-family: 'Graebenbach', serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color:	blue;
+  text-decoration: underline;
+}
+
+a:hover {
+  font-family: 'Graebenbach', serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: white;
+  text-decoration: underline;
+  
+}
+
+img {
+  width: 40rem;
+  margin: 0 2.3rem 0 0;
+  align-self: start;
+}
+
+#logo {
+  margin: 0;
+}
+
+.publications-img {
+  width: 40rem;
+  margin: 0 2.3rem 0 0;
+  align-self: start;
+}
+
+body {
+  margin: 0px;
+  background-color: black;  
+}
+
+main {
+  padding: 0;
+  margin-top: 2.3rem;
+  flex-direction: column;
+    
+}
+
+.page {
+  padding: 0 2.3rem 4.6rem 2.3rem;
+  display: flex;
+  margin-bottom: 4.6rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.post {
+  padding: 0 2.3rem 4.6rem 2.3rem;
+  display: flex;
+  border-bottom: solid 1px white;
+  margin-bottom: 4.6rem;
+}
+
+.publication {
+  padding: 0 2.3rem 4.6rem 2.3rem;
+  display: flex;
+  border-bottom: solid 1px white;
+  margin-bottom: 4.6rem;
+}
+
+section {
+  padding-left: 0;
+}
+
+header {
+  margin: 0;
+  border-bottom: solid white 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;  
+  padding: 2rem 2rem;
+}
+
+nav {
+  padding-right: 2rem;
+}
+
+#menucontainer {
+  display: flex;
+}
+
+nav a,:visited {
+  font-family: 'Graebenbach', serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  font-family: 'Graebenbach', serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: white;
+  text-decoration: underline;
+}
+
+input {
+  font-family: 'Graebenbach', serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 130%;
+  background-color: white;
+  color: grey;
+  border: solid 2px	blue;
+  padding: 2rem;
+  margin-right: 1rem;
+  display: column;
+  margin-bottom: 1rem;
+  border-radius: 40px;
+}
+
+#button {
+  font-family: 'Graebenbach', serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 130%;
+  color: white;
+  background-color:	blue;
+  border: solid 2px	blue;
+  padding: 2rem;
+  margin-right: 1rem;
+  display: column;
+  border-radius: 40px;
+}
+
+#button:hover {
+  background-color:	white;
+  border: solid 2px	white;
+  color: black;
+}
+
+#message {
+  font-family: 'Snell Roundhand', cursive;
+  font-weight: 400;
+  font-size: 2rem;
+  color: white;
+  margin-top: 3rem;
+  text-align: left;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+
+h1 {
+  font-size: 4.6rem;
+  margin: 2.3rem 0;
+}
+
+h2 {
+  font-size: 2.3rem;
+}
+
+p {
+  font-size: 1.8rem;
+}
+  
+.post {
+flex-direction: column;  
+justify-content: center;
+padding: 0 2.3rem 2.3rem
+}
+
+img {
+  margin-bottom: 2.3rem;
+}
+
+#logo {
+  margin: 0;
+  width: 100%;
+}
+
+.publications-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2.3rem;
+}
+
+#menucontainer {
+  flex-direction: column;
+}
+
+nav {
+  padding: 1rem 0;
+}
+
+header {
+  flex-direction: column;
+  align-items: start;
+  padding: 2rem 2rem;
+}
+
+}
+
+
+
+
+
