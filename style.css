@@ -9,7 +9,6 @@
          url('fonts/Graebenbach-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 h1 {
@@ -32,6 +31,10 @@ h2 {
   margin: 0 0 0 0;  
 }
 
+h2.hidden {
+  display: none;
+}
+
 p {
   font-family: 'Graebenbach', serif;
   font-weight: 400;
@@ -46,11 +49,11 @@ p {
   font-style: italic;
 }
 
-a, :visited {
+a,:visited {
   font-family: 'Graebenbach', serif;
   font-weight: 700;
   font-size: 1.8rem;
-  color:	blue;
+  color:	pink;
   text-decoration: underline;
 }
 
@@ -60,7 +63,6 @@ a:hover {
   font-size: 1.8rem;
   color: white;
   text-decoration: underline;
-  
 }
 
 img {
@@ -87,8 +89,7 @@ body {
 main {
   padding: 0;
   margin-top: 2.3rem;
-  flex-direction: column;
-    
+  flex-direction: column; 
 }
 
 .page {
@@ -101,16 +102,9 @@ main {
 
 .post {
   padding: 0 2.3rem 4.6rem 2.3rem;
-  display: flex;
   border-bottom: solid 1px white;
   margin-bottom: 4.6rem;
-}
-
-.publication {
-  padding: 0 2.3rem 4.6rem 2.3rem;
   display: flex;
-  border-bottom: solid 1px white;
-  margin-bottom: 4.6rem;
 }
 
 section {
@@ -151,19 +145,28 @@ nav a:hover {
   text-decoration: underline;
 }
 
+label {
+  font-family: 'Graebenbach', serif;
+  color: white;
+  font-size: 2.3rem;
+  line-height: 100%;
+  font-weight: 400;
+  text-align: left;
+  margin: 0 0 0 0;  
+}
+
 input {
   font-family: 'Graebenbach', serif;
   font-weight: 400;
   font-size: 1.8rem;
   line-height: 130%;
   background-color: white;
-  color: grey;
-  border: solid 2px	blue;
+  color: black;
+  border: solid 2px	pink;
   padding: 2rem;
-  margin-right: 1rem;
-  display: column;
-  margin-bottom: 1rem;
+  flex-direction: column;
   border-radius: 40px;
+  margin:  2.3rem 1rem 1rem 0;
 }
 
 #button {
@@ -171,12 +174,12 @@ input {
   font-weight: 400;
   font-size: 1.8rem;
   line-height: 130%;
-  color: white;
-  background-color:	blue;
-  border: solid 2px	blue;
+  color: black;
+  background-color:	pink;
+  border: solid 2px	pink;
   padding: 2rem;
   margin-right: 1rem;
-  display: column;
+  flex-direction: column;
   border-radius: 40px;
 }
 
@@ -191,11 +194,9 @@ input {
   font-weight: 400;
   font-size: 2rem;
   color: white;
-  margin-top: 3rem;
+  margin-top: 2.3rem;
   text-align: left;
 }
-
-
 
 @media only screen and (max-width: 900px) {
 
@@ -215,10 +216,12 @@ p {
 .post {
 flex-direction: column;  
 justify-content: center;
-padding: 0 2.3rem 2.3rem
+padding: 0;
+margin: 0 2.3rem 2.3rem;
 }
 
 img {
+  width: 100%;
   margin-bottom: 2.3rem;
 }
 
@@ -246,10 +249,4 @@ header {
   align-items: start;
   padding: 2rem 2rem;
 }
-
-}
-
-
-
-
 

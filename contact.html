@@ -20,43 +20,50 @@
     <div id="menucontainer">
       <nav><a href="publications.html">Utgivning</a></nav>
       <nav><a href="events.html">Händelser</a></nav>
-      <nav><a href="distribution.html">Försäljning</a></nav>
       <nav><a href="contact.html">Kontakt</a></nav>
     </div>
   </header>
 
   <main>
-    
-    <h1>Redaktion</h1>
-
-    <article class="page">
-      <section>
-        <p>
-          Hanna Stjernfeldt
-          <br>
-          podpoesinu@gmail.com
-        </p>
-        <p>
-          Formgivning Kristoffer Larberg
-        </p>
-        <p>
-          Podpoesi press ger ut nyskriven poesi på svenska i chapbookformat.
-          Podpoesi press är en del av Podpoesi.
-        </p>
-      </section>
-      <aside>
-        <label for="name">
-          <p>
-            Anmäl dig till vårt nyhetsbrev:
-          </p>
-        </label>
-        <form id="my-form" name="myForm" action="#">
-          <input id="input" type="text" name="name">
-          <input id="button" type="submit" name="submit" value="Submit">
-        </form>
-        <div id="message"></div>
-      </aside>
-    </article>
+      <h1>Redaktion</h1>
+        <article class="page">
+          <h2 class="hidden">Om förlaget och kontaktuppgifter</h2>
+          <section>
+            <h2>Om förlaget</h2>
+              <p>
+                Podpoesi press ger ut nyskriven poesi på svenska i chapbookformat.
+                Podpoesi press är en del av Podpoesi.
+              </p>
+            <h2>Om förlaget</h2>
+              <p>
+                Podpoesi Press publikationer distribueras via <a href="http://www.adlibris.se" target="top">Adlibris</a> och finns
+                även till försäljning på Rönnells Antikvariat.
+              </p>
+            <h2>
+              Kontakt
+            </h2>
+              <p>
+                Hanna Stjernfeldt
+                <br>
+                <a href="mailto:podpoesinu@gmail.com">podpoesinu@gmail.com</a>
+              </p>
+              <p>
+                Formgivning <a href="http://www.kristofferlarberg.se/" target="top">Kristoffer Larberg</a>
+              </p>
+          </section>
+          <section>
+            <h2 class="hidden">Anmälan till nyhetsbrev</h2>
+            <form id="my-form" name="myForm" action="#">
+              <label for="name">
+                Nyhetsbrev
+              </label>
+              <br>
+            <input type="text" name="name" id="name">
+              <input type="submit" name="submit" value="Submit" id="button">
+            </form>
+            <div id="message"></div>
+          </section>
+        </article>
   </main>
 
 <script src="script.js"></script>
