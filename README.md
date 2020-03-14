@@ -1,7 +1,7 @@
 # Podpoesi Press
 First draft of a website proposal for poetry publishers Podpoesi Press.
 
-## Screenshotgit 
+## Screenshot
 ![Image of homepage](https://github.com/kristofferlarberg/podpoesi-press/raw/master/example.png)
 
 ## License
